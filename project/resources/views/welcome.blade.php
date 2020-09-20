@@ -112,6 +112,6 @@
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 
 
-<script src="{{ 'js/main.js' }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
