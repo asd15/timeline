@@ -13,7 +13,7 @@ class UploadController extends Controller
         //$uploads = Upload::groupBy('year')->orderBy('year', 'DESC')->get();
 
 
-        $uploads = DB::table('uploads')->select('year')->orderBy('year', 'DESC')
+        $uploads = DB::table('uploads')->select('year')->orderBy('year', 'ASC')
             ->groupBy('year')->get();
 
         $images = DB::table('uploads')->select('image', 'year')->get();
